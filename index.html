@@ -6,10 +6,12 @@
 
      <meta charset="UTF-8">
 
-     <meta name="viewpoint"  content="width=device=width,  initial-scale=1.O"
+     <meta name="viewpoint"  content="width=device=width,  initial-scale=1.O">
 
-     <title>My First GitHub Page</title>
+     <title>"My First GitHub Page"</title>
+     <link rel="stylesheet" href="styles.css"><!-- Bootstrap CSS --> 
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"> 
 </head>
 
 <body>
@@ -17,33 +19,117 @@
     <header>
 
        <h1>Welcome to My Website!</h1>
-       <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-       </nav>
-       
+        
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> 
+
+        <div class="container"> 
+
+            <a class="navbar-brand" href="index.html">My Website</a> 
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> 
+
+                <span class="navbar-toggler-icon"></span> 
+
+            </button> 
+
+            <div class="collapse navbar-collapse" id="navbarNav"> 
+
+                <ul class="navbar-nav"> 
+
+                    <li class="nav-item"> 
+
+                        <a class="nav-link" href="index.html">Home</a> 
+
+                    </li> 
+
+                    <li class="nav-item"> 
+
+                        <a class="nav-link" href="about.html">About</a> 
+
+                    </li> 
+
+                    <li class="nav-item"> 
+
+                        <a class="nav-link" href="contact.html">Contact</a> 
+
+                    </li> 
+
+                </ul> 
+
+            </div> 
+
+        </div> 
+
+    </nav> 
+
+
+
  </header>
  
 
     <main>
 
-    <p>This is a simple webpage hsoted on Github Pages.</p>
+    <main class="container my-5"> 
 
-    <p>Here's a picture of a cute cat:
+    <div class="row"> 
 
-    <img src="https: / /placekitten.com/2OO/3OO" alt="A cute kitten">
+        <div class="col-md-8"> 
 
-              <p>Visit <a href="https:/ /github.com">GitHub</a> to learn more about coding.</p>
+            <h2>Welcome to My Website!</h2> 
+
+            <p>This is a simple webpage hosted on GitHub Pages.</p> 
+
+            <p>Here's pictures of the best midfieder in the world:</p> 
+
+            <img src="https://th.bing.com/th/id/OIP._xJRFqbIGQfZEN3NhkLJ7AHaE7?w=223&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="A cute kitten" class="img-fluid rounded"> 
+            
+            <img src="https://th.bing.com/th/id/OIP.M5E8P9fEZVygIahktVNj0gHaEK?w=321&h=180&c=7&r=0&o=7&pid=1.7&rm=3"
+            
+            
+            
+            
+    
+
+         
+
+        class="col-md-4"> 
+
+            <div class="card"> 
+
+                <div class="card-body"> 
+
+                    <h5 class="card-title">Did You Know?</h5> 
+
+                    <p class="card-text">GitHub Pages is a free service to host static websites directly from your GitHub repository.</p> 
+
+                </div> 
+
+            </div> 
+
+        </div> 
+
+    </div> 
+
+</main> 
+
+    
+
+    
+
+              
         
     </main>
-
 
 
     <footer>
 
         <p>&copy; 2025 Thulani</p>
 
-    </footer>
+    </footer><!-- Bootstrap JS and dependencies --> 
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script> 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script> 
 
 </body>
